@@ -6,68 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
     <link rel="stylesheet" href="navbar.css" />
-    <!-- Boxicons CSS -->
-    <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <script src="navbar.js" defer></script>
   </head>
   <body>
-    <nav class="sidebar locked">
-      <div class="logo_items flex">
-        <span class="nav_image">
-          <img src="./images/prodev5-logo.png" alt="logo_img" />
-        </span>
-        <span class="logo_name">Student Portal</span>
-        <i class="bx bx-lock-alt" id="lock-icon" title="Unlock Sidebar"></i>
-        <i class="bx bx-x" id="sidebar-close"></i>
+    <header class="header">
+      <img
+        src="./images/prodev5-logo.png"
+        alt="thapa technical logo"
+        class="logo"
+      />
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#">Home Page</a></li>
+          <li><a class="navbar-link" href="#">Sign Up</a></li>
+          <li><a class="navbar-link" href="#">Sign In</a></li>
+          <li><a class="navbar-link" href="#">Gallery</a></li>
+          <li>
+            <a
+              class="navbar-link"
+              href="#"
+              target="_blank"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
       </div>
+    </header>
 
-      <div class="menu_container">
-        <div class="menu_items">
-          <ul class="menu_item">
-            <div class="menu_title flex">
-              <span class="title">Dashboard</span>
-              <span class="line"></span>
-            </div>
-            <li class="item">
-              <a href="#" class="link flex">
-                <i class="bx bx-home-alt"></i>
-                <span>Homepage</span>
-              </a>
-            </li>
-            <li class="item">
-              <a href="#" class="link flex">
-                <i class="bx bx-grid-alt"></i>
-                <span>Sign Up</span>
-              </a>
-            </li>
-            <li class="item">
-              <a href="#" class="link flex">
-                <i class="bx bx-grid-alt"></i>
-                <span>Sign In</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="sidebar_profile flex" style="margin-bottom: 5%;">
-          <span class="nav_image">
-            <img src="./images/prodev5-logo.png" alt="logo_img" />
-          </span>
-          <div class="data_text">
-            <span class="name">ProDev 5</span>
-            <span class="email">prodev5@gmail.com</span>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Navbar -->
-    <nav class="navbar flex">
-      <i class="bx bx-menu" id="sidebar-open"></i>
-      <input type="text" placeholder="Search..." class="search_box" />
-      <span class="nav_image">
-        <img src="./images/prodev5-logo.png" alt="logo_img" />
-      </span>
-    </nav>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="navbar.js"></script>
   </body>
 </html>
