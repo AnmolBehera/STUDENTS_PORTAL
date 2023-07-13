@@ -1,0 +1,23 @@
+{
+  "student-details": [
+    {
+      "id": 3215,
+      "name": "Aniket Patra"
+    },
+    {
+      "id": 7895,
+      "name": "Ram Rastogi"
+    }
+  ],
+  "student-report": [
+    {
+      "id": "3215",
+      "name": "Aniket Patra",
+      "math": "85",
+      "english": "75",
+      "science": "65",
+      "odical": "35",
+      "socialScience": "23"
+    }
+  ]
+}
