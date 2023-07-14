@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" width="200px" height="50px" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link"></i>Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a class="btn btn-primary me-md-2 mb-2" href="#">Signup</a></li>
+                        <li class="nav-item"><a class="btn btn-primary me-2" href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <div class="main">
+        <div class="signup-box">
+            <div class="signup-form">
+                <h2 class="form-title">Sign up</h2>
+                <form method="" action="" class="register-form" id="register-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-text">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-text">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <input type="email" name="email" id="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-text">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <input type="password" name="password" id="pass" placeholder="Password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-text">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <input type="password" name="confirmPassword" id="re_pass" placeholder="Confirm Password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-text">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <input type="text" name="ContactNo" id="contact" placeholder="ContactNo" />
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <input type="button" name="signup" id="signup" class="form-submit" value="Register" />
+                    </div>
+                </form>
+
+            </div>
+            <div class="signup-image">
+                <img src="images/signin-image.jpg" alt="sign up image"><br><br>
+                <a href="./Signin.html">Already have an account ? Sign in</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <script src="signup.js"></script>
+</body>
+
+</html>
