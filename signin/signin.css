@@ -1,0 +1,129 @@
+.main {
+    background-image: url(../images/hero-bg.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-box {
+    width: 80%;
+    max-width: 900px;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.signin-form {
+    flex: 1;
+    padding: 30px;
+}
+
+.signin-form h2.form-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.signin-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.signin-form .form-group .input-group {
+    display: flex;
+    align-items: center;
+}
+
+.signin-form .form-group .input-group-text {
+    background-color: transparent;
+    border: none;
+    color: #ccc;
+    padding: 0 10px;
+}
+
+.signin-form .form-group .input-group-text i {
+    font-size: 18px;
+}
+
+.signin-form .form-group input {
+    padding-left: 30px;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.signin-form .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.signin-form .form-group input:focus+label {
+    top: 0;
+    transform: translateY(0);
+    font-size: 12px;
+    color: #007bff;
+}
+
+.signin-form .form-button {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.signin-form .form-button input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signin-form .form-button input:hover {
+    background-color: #0069d9;
+}
+
+.signin-form .signup-option {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin-form .signup-option a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signin-form .signup-option a:hover {
+    text-decoration: underline;
+}
+
+.signin-image {
+    flex: 1;
+    text-align: center;
+    padding: 80px;
+    margin-top: 30px;
+}
+
+.signin-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+@media screen and (max-width: 680px) {
+    .main{
+        margin-top: 10%;
+    }
+    .signin-image{
+        display: none;
+    }
+}

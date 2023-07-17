@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <!-- Main css -->
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+            <div class="container">
+                <a href="../home/index.html" class="navbar-brand">
+                    <img src="../images/logo.png" width="200px" height="50px" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="../home/index.html" class="nav-link"></i>Home</a></li>
+                        <li class="nav-item"><a href="../home/aboutus.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a class="btn btn-primary me-md-2 mb-2" href="../signup/signup.html">Signup</a></li>
+                        <li class="nav-item"><a class="btn btn-primary me-2" href="signin.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="signin-box">
+            <div class="signin-image">
+                <img src="https://morweb.org/get/files/image/galleries/college_websites_feature.jpg" alt="sign up image">
+                <a href="../signup/signup.html">New to ProED?Create an account</a>
+            </div>
+            <div class="signin-form">
+                <h2 class="form-title">Sign in</h2>
+                <div class="signin-form" id="signin-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                            <input type="password" name="password" id="password" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <input type="submit" name="signin" id="signin" class="form-submit" value="Sign in">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="signin.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
+</html>

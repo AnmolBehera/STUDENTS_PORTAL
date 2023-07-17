@@ -30,10 +30,11 @@ signup.addEventListener("click", () => {
                 }).then((res) => res.json()).then((data) => {
                     console.log(data);
                     swal({
-                        icon: 'error',
-                        title: "Account Created Successfully!"
+                        icon: 'success',
+                        title: "Account Created Successfully!",
+                        button:false
                       })
-                    window.location.href = "./Sign In.html";
+                    window.location.href = "../signin/signin.html";
                 });
             }
         });

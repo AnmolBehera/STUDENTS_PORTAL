@@ -1,0 +1,93 @@
+{
+  "student-details": [
+    {
+      "id": 3215,
+      "name": "Pintu Patra",
+      "fname": "Aniket Patra",
+      "email": "pintu@gmail.com",
+      "phone": "9835462110",
+      "class": "12",
+      "gender": "male",
+      "stream": "Science",
+      "date": "2023-07-15"
+    },
+    {
+      "id": 3235,
+      "name": "Animesh Patra",
+      "fname": "Aniket Patra",
+      "email": "animesh@gmail.com",
+      "phone": "9835460110",
+      "gender": "male",
+      "class": 11,
+      "stream": "Science",
+      "date": "2023-07-15"
+    },
+    {
+      "name": "Abhijit Mahakul",
+      "fname": "Ashutosh Panda",
+      "email": "fidu@mail.com",
+      "phone": "8198394011",
+      "date": "2023-07-15",
+      "gender": "male",
+      "stream": "Science",
+      "class": "11",
+      "id": 3236
+    },
+    {
+      "name": "leon",
+      "fname": "tim",
+      "email": "leon@gmail.com",
+      "phone": "9835462110",
+      "date": "2023-07-01",
+      "gender": "male",
+      "stream": "Science",
+      "class": "12",
+      "id": 3238
+    },
+    {
+      "name": "ada",
+      "fname": "mini",
+      "email": "ada@gmail.com",
+      "phone": "9835460110",
+      "date": "2023-07-27",
+      "gender": "female",
+      "stream": "Science",
+      "class": "11",
+      "id": 3239
+    },
+    {
+      "name": "jimmy",
+      "fname": "mikky",
+      "email": "jimmy@gmail.com",
+      "phone": "0983228914",
+      "date": "2023-06-16",
+      "gender": "male",
+      "stream": "Science",
+      "class": "12",
+      "id": 3240
+    }
+  ],
+  "admin": [
+    {
+      "name": "Ashutosh",
+      "mobile": "9080914981",
+      "email": "ashutosh@gmail.com",
+      "password": "Ashutosh@123",
+      "id": 1
+    },
+    {
+      "name": "Anmol Partha Behera",
+      "mobile": "8093247819",
+      "email": "anmol@gmail.com",
+      "password": "Anmol@234",
+      "id": 2
+    },
+    {
+      "name": "Abhijit Mahakul",
+      "mobile": "0198974864",
+      "email": "abhijit@gmail.com",
+      "password": "Abhijit@123",
+      "id": 3
+    }
+  ]
+}

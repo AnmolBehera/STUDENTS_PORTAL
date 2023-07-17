@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+  <header>
+    <div class="top">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn"onclick="closeNav()">&times;</a>
+        <a href="../admin/admin.html"><i class="fa-solid fa-user"></i>Profile</a>
+        <a href="register.html"><i class="fa-solid fa-user-plus"></i>Add student</a>
+        <!-- <a href="../addmarks/report.html"><i class="fa-solid fa-plus"></i>Add Marks</a> -->
+        <a href="../record/record.html"><i class="fa-solid fa-address-book"></i>Students' Record</a>
+        <a href="../signin/signin.html" id="signout"><i class="fas fa-sign-out"></i>Sign Out</a>
+      </div>
+      <span class=" btn btn-primary m-3 p-3" onclick="openNav()">&#9776;</span>
+      <img src="../images/logo.png" alt="Image" style="float: right; max-height: 80px;">
+    </div>
+  </header>
+  <form id="registrationForm" >
+    <h1>Student Registration Form</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter name" required>
+
+    <label for="fname">Father's Name:</label>
+    <input type="text" id="fname" placeholder="Enter Father's name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter Email" required>
+
+    <label for="phone">Phone No.:</label>
+    <input type="text" id="phone" placeholder="Enter Phone No" required>
+
+    <label for="date">D.O.B:</label>
+    <input type="date" id="date" required>
+
+    <label for="gender">Gender:</label>
+    <div id="ugender">
+      <input type="radio" name="gender" value="male" checked>
+      <label for="male" >Male</label>
+      <input type="radio" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="others">
+      <label for="others">Others</label>
+    </div>
+
+    <label for="stream">Stream:</label>
+    <select id="stream" required>
+      <option value="Science" selected>Science</option>
+      <!--<option value="commerce">Commerce</option>
+            <option value="arts">Arts</option>-->
+    </select>
+
+    <label for="class">Class:</label>
+    <select id="class" required>
+      <option selected disabled>--Select--</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+
+    <label id="check" class="error"></label>
+
+    <div class="text-center">
+      <button type="submit" id="save">Save</button>
+      <button type="reset" id="reset">Reset</button>
+    </div>
+
+  </form>
+  <script src="register.js"></script>
+</body>
+
+</html>
