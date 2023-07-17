@@ -7,8 +7,8 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 25px;
-            margin-bottom: 50px;
+            margin-top: 5%;
+            
         }
 
         .signup-box {
@@ -187,17 +187,21 @@ body{
             background:transparent;
         }
 
-        @media screen and (max-width: 307px) {
+        @media screen and (max-width: 287px) {
+            .main{
+                margin-top: 30%;
+            }
             .image {
                 max-height: 150px;
                 max-width: 150px;
             }
             .signup-box {
                 margin-top: 0%;
-                margin-left: 6%;
+                margin-left: 0%;
                 margin-right: auto;
                 width: 100%;
                 zoom:100%;
+                align-items: center;
             }
         }
         @media screen and (max-width: 700px) {
@@ -210,18 +214,22 @@ body{
             }
 
             .signup-box {
-                margin-top: 0%;
-                margin-left: 6%;
-                margin-right: auto;
+                margin-top:0%;
                 width: 100%;
-                zoom:100%;
+                max-width:200%;
+                padding: 10px;
+                background-color:white ;
+                /*border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+                display: flex;
+                align-items: center;
             }
 
             .signup-form {
                 padding: 15px;
                 object-fit: cover;
                 margin-top: 90%;
-                margin-left: 20%;
+                margin-left: 10%;
             }
 
             .signup-form .form-button input {

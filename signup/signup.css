@@ -124,9 +124,14 @@
         }
 @media screen and (max-width: 680px) {
     .main{
-        margin-top: 32%;
+        margin-top: 20%;
     }
     .signup-image{
         display: none;
+    }
+}
+@media screen and (max-width: 287px) {
+    .main{
+        margin-top: 30%;
     }
 }
