@@ -23,17 +23,6 @@
       "date": "2023-07-15"
     },
     {
-      "name": "Abhijit Mahakul",
-      "fname": "Ashutosh Panda",
-      "email": "fidu@mail.com",
-      "phone": "8198394011",
-      "date": "2023-07-15",
-      "gender": "male",
-      "stream": "Science",
-      "class": "11",
-      "id": 3236
-    },
-    {
       "name": "leon",
       "fname": "tim",
       "email": "leon@gmail.com",
@@ -65,6 +54,39 @@
       "stream": "Science",
       "class": "12",
       "id": 3240
+    },
+    {
+      "name": "Charlie",
+      "fname": "Charles",
+      "email": "charlie@imail.com",
+      "phone": "9835464510",
+      "date": "2023-06-08",
+      "gender": "others",
+      "stream": "Science",
+      "class": "11",
+      "id": 3241
+    },
+    {
+      "name": "Sara",
+      "fname": "Tommy",
+      "email": "sara@hotmail.com",
+      "phone": "9835467210",
+      "date": "2023-07-01",
+      "gender": "female",
+      "stream": "Science",
+      "class": "11",
+      "id": 3242
+    },
+    {
+      "name": "Rocky",
+      "fname": "Thalapathy",
+      "email": "rocky@hello.com",
+      "phone": "8753640192",
+      "date": "2023-06-08",
+      "gender": "male",
+      "stream": "Science",
+      "class": "11",
+      "id": 3243
     }
   ],
   "admin": [
@@ -88,6 +110,13 @@
       "email": "abhijit@gmail.com",
       "password": "Abhijit@123",
       "id": 3
+    },
+    {
+      "name": "Aniket Patra",
+      "mobile": "9080913898",
+      "email": "aniket@yahoo.com",
+      "password": "Aniket@123",
+      "id": 4
     }
   ]
 }

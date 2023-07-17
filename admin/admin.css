@@ -192,6 +192,13 @@ body{
                 max-height: 150px;
                 max-width: 150px;
             }
+            .signup-box {
+                margin-top: 0%;
+                margin-left: 6%;
+                margin-right: auto;
+                width: 100%;
+                zoom:100%;
+            }
         }
         @media screen and (max-width: 700px) {
             .sidenav {
@@ -207,10 +214,14 @@ body{
                 margin-left: 6%;
                 margin-right: auto;
                 width: 100%;
+                zoom:100%;
             }
 
             .signup-form {
                 padding: 15px;
+                object-fit: cover;
+                margin-top: 90%;
+                margin-left: 20%;
             }
 
             .signup-form .form-button input {

@@ -178,7 +178,7 @@ function tablebody(el){
 
     const action=document.createElement("td");
     const updatebutton = document.createElement("button");
-    updatebutton.innerText = "Update";
+    updatebutton.innerText = "Edit";
     updatebutton.setAttribute("id","update");
     updatebutton.setAttribute("data-bs-toggle","modal");
     updatebutton.setAttribute("data-bs-target","#confirmationModal");
