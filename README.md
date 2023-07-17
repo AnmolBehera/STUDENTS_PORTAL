@@ -24,14 +24,6 @@ students' record -----> In this page the list of students is shown.We can find t
 
 The admin will make the report card of student in which student will make the entries of the subject marks of each student and also the total marks and the percentage
 
-## STUDENT MODULE
-
-User authentication: Students can securely log in to the system using their credentials.
-
-student module -----> in this module there will be 2 pages.
-
-first page will search the roll number if the roll number is present then in then student can see their result with their details but student cannot access the admin module
-
 ## Installation
 
 Clone the repository: git clone https://github.com/your-username/student-portal.git
