@@ -6,7 +6,7 @@ The Student Portal is a web application that provides a centralized platform for
 
 ## COMPONENTS/user flow
 
-The student portal includes 2 modules:- admin and student
+The student portal includes 1 module:- admin.
 
 ## ADMIN MODULE
 
