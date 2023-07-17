@@ -1,12 +1,10 @@
 .container {
     margin-top: 20px;
 }
-
 .table thead {
     background-color: blue;
     color: white;
 }
-
 .table th,
 .table td {
     vertical-align: middle;

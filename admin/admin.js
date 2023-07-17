@@ -77,7 +77,7 @@ save.addEventListener("click", () => {
             if (uname.value == "") {
                 swal({
                     icon: 'error',
-                    title: "Please your name!"
+                    title: "Enter your name!"
                   })
                 return false
             }

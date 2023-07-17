@@ -45,65 +45,65 @@ function validate() {
     if (uname.value == "") {
         swal({
             icon: 'error',
-            title: "Please your name!"
+            title: "Enter your name!"
           })
-        return false
+        return false;
     }
     if (email.value == "") {
         swal({
             icon: 'error',
             title: "Enter your email!"
           })
-        return false
+        return false;
     }
     if (password.value == "") {
         swal({
             icon: 'error',
             title: "Enter your password!"
           })
-        return false
+        return false;
     }
     if (phone.value == "") {
         swal({
             icon: 'error',
             title: "Enter your mobile number!"
           })
-        return false
+        return false;
     }
     if (phone.value.length != 10) {
         swal({
             icon: 'error',
             title: "Enter your mobile no.!"
           })
-        return false
+        return false;
     }
     if (isNaN(phone.value)) {
         swal({
             icon: 'error',
             title: "Enter your valid mobile no.!"
           })
-        return false
+        return false;
     }
     if (password.value.length < 8) {
         swal({
             icon: 'error',
             title: "Password length should be atleast 8 characters long!"
           })
-        return false
+        return false;
     }
     if (re_password.value !== password.value){
         swal({
             icon: 'error',
             title: "Confirm Password does not match with the password value!"
           })
-        return false
+        return false;
     }
     if (checkUpperChar(password.value)&&checkSpecialChar(password.value)) {
         swal({
             icon: 'error',
             title: "Password must have atleast one upppercase letter and one special character!"
           })
-        return false
+        return false;
     }
     let at = email.value.indexOf("@")
     let dot = email.value.lastIndexOf(".")
@@ -113,17 +113,17 @@ function validate() {
             icon: 'error',
             title: "Please enter a valid email address!"
           })
-        return false
+        return false;
     }
-    return true
+    return true;
 }
 
 function checkUpperChar(password) {
     for (let i = 0; i < password.length; i++) {
         if (password.charAt(i) >= 'A' && password.charAt(i) <= 'Z')
-            return false
+            return false;
     }
-    return true
+    return true;
 }
 
 function checkSpecialChar(password) {
@@ -131,7 +131,7 @@ function checkSpecialChar(password) {
     for (let i = 0; i < password.length; i++) {
         let char = password.charAt(i)
         if (spchar.test(char))
-            return false
+            return false;
     }
-    return true
+    return true;
 }

@@ -1,32 +1,21 @@
 {
   "student-details": [
     {
-      "id": 3215,
-      "name": "Pintu Patra",
-      "fname": "Aniket Patra",
-      "email": "pintu@gmail.com",
-      "phone": "9835462110",
-      "class": "12",
-      "gender": "male",
-      "stream": "Science",
-      "date": "2023-07-15"
-    },
-    {
       "id": 3235,
       "name": "Animesh Patra",
       "fname": "Aniket Patra",
       "email": "animesh@gmail.com",
-      "phone": "9835460110",
+      "phone": "9835460121",
       "gender": "male",
-      "class": 11,
+      "class": "12",
       "stream": "Science",
       "date": "2023-07-15"
     },
     {
       "name": "leon",
-      "fname": "tim",
+      "fname": "Richardson",
       "email": "leon@gmail.com",
-      "phone": "9835462110",
+      "phone": "9835462114",
       "date": "2023-07-01",
       "gender": "male",
       "stream": "Science",
@@ -67,17 +56,6 @@
       "id": 3241
     },
     {
-      "name": "Sara",
-      "fname": "Tommy",
-      "email": "sara@hotmail.com",
-      "phone": "9835467210",
-      "date": "2023-07-01",
-      "gender": "female",
-      "stream": "Science",
-      "class": "11",
-      "id": 3242
-    },
-    {
       "name": "Rocky",
       "fname": "Thalapathy",
       "email": "rocky@hello.com",
@@ -87,12 +65,34 @@
       "stream": "Science",
       "class": "11",
       "id": 3243
+    },
+    {
+      "name": "kamlesh",
+      "fname": "Bishal Sahoo",
+      "email": "kamlesh@mail.com",
+      "phone": "6794931432",
+      "date": "2023-03-17",
+      "gender": "male",
+      "stream": "Science",
+      "class": "11",
+      "id": 3244
+    },
+    {
+      "name": "liam",
+      "fname": "Dorako",
+      "email": "liam@umail.com",
+      "phone": "9083328612",
+      "date": "2023-06-01",
+      "gender": "male",
+      "stream": "Science",
+      "class": "12",
+      "id": 3245
     }
   ],
   "admin": [
     {
       "name": "Ashutosh",
-      "mobile": "9080914981",
+      "mobile": "9080914982",
       "email": "ashutosh@gmail.com",
       "password": "Ashutosh@123",
       "id": 1
@@ -106,9 +106,9 @@
     },
     {
       "name": "Abhijit Mahakul",
-      "mobile": "0198974864",
+      "mobile": "0198974862",
       "email": "abhijit@gmail.com",
-      "password": "Abhijit@123",
+      "password": "Abhijit@111",
       "id": 3
     },
     {
@@ -117,6 +117,20 @@
       "email": "aniket@yahoo.com",
       "password": "Aniket@123",
       "id": 4
+    },
+    {
+      "name": "Bishal",
+      "mobile": "8328743721",
+      "email": "bishal@gmail.com",
+      "password": "Bishal@124",
+      "id": 5
+    },
+    {
+      "name": "Rimjhim1",
+      "mobile": "7891234561",
+      "email": "rim@hotmail.com",
+      "password": "rimjhim@123",
+      "id": 6
     }
   ]
 }
