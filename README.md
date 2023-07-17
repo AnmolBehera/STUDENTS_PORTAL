@@ -14,7 +14,6 @@ out us page etc.From home page we can traverse to signup,signin pages.
 
 ProEd :
 <img width="960" alt="Screenshot 2023-07-17 122225" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/7053abf6-3876-4e4a-b76f-dbfbd48e76f5">
->
 <img width="960" alt="Screenshot 2023-07-17 114504" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/ef635359-361b-4fc2-b7fe-b692ec2f112c">
 <img width="960" alt="Screenshot 2023-07-17 114520" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/83adbc54-ccd2-4d4e-a226-3051d57575a7">
 
