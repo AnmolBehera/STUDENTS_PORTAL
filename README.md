@@ -6,12 +6,21 @@ The Student Portal is a web application that provides a centralized platform for
 
 ## COMPONENTS/user flow
 
-Home module ----> this module contains the home page,about us page etc.From home page we can traverse to signup,signin pages.
+Home module ----> this module contains the home page,ab
+out us page etc.From home page we can traverse to signup,signin pages.
 
 ProEd :
 <img width="960" alt="Screenshot 2023-07-17 114439" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/e057b819-ac25-4ac1-bebc-ecde51f573d3">
-<img width="959" alt="Screenshot 2023-07-17 114504" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/ef635359-361b-4fc2-b7fe-b692ec2f112c">
+<img width="960" alt="Screenshot 2023-07-17 114504" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/ef635359-361b-4fc2-b7fe-b692ec2f112c">
 <img width="960" alt="Screenshot 2023-07-17 114520" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/83adbc54-ccd2-4d4e-a226-3051d57575a7">
+
+Mobile Responsive View:
+
+<img width="158" alt="Screenshot 2023-07-17 120221" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/03362f40-7ab8-470f-b75e-905ad377f7d2">
+<img width="158" alt="Screenshot 2023-07-17 120252" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/0a5fb65b-4205-4500-be8d-752d7831d945">
+<img width="158" alt="Screenshot 2023-07-17 120311" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/58f22315-825a-4a11-9569-154d8290e46f">
+<img width="158" alt="Screenshot 2023-07-17 120328" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/02a77ccc-9547-48b9-a7bd-611b8a2128c1">
+
 
 About Us:
 <img width="960" alt="Screenshot 2023-07-17 114551" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/4a3343a1-5a84-4058-b5da-9808e555aea3">
@@ -43,9 +52,9 @@ registration -----> In this page the admin will register themselves by giving th
 
 students' record -----> In this page the list of students is shown.We can find the students of class 11 or 12 and also searching of a particular student can be done by using his or her name.Again, we can update the student details and also we can remove the details of a student.
 
-<img width="959" alt="Screenshot 2023-07-17 114804" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/0af37f79-a1dd-42b8-b79d-c058f7aa6d7b">
-
-<img width="960" alt="Screenshot 2023-07-17 114838" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/9dcac7b7-36ae-48d2-81aa-5ae03a4c8445"><img width="960" alt="Screenshot 2023-07-17 115826" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/8b550b60-d330-45d7-8daf-98bb4412afdb">
+<img width="960" alt="Screenshot 2023-07-17 114804" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/0af37f79-a1dd-42b8-b79d-c058f7aa6d7b">
+<img width="960" alt="Screenshot 2023-07-17 114838" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/9dcac7b7-36ae-48d2-81aa-5ae03a4c8445">
+<img width="960" alt="Screenshot 2023-07-17 115826" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/8b550b60-d330-45d7-8daf-98bb4412afdb">
 
 
 
