@@ -1,3 +1,7 @@
+
+
+![logo](https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/09f3183b-40bf-415d-b0f6-05f570996b5a)
+
 # STUDENTS_PORTAL
 
 ## INTRODUCTION
