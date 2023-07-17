@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        @media screen and (max-width: 307px) {
+            .image {
+                max-height: 150px;
+                max-width: 150px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="../images/logo.png" class="image" width="200px" height="50px" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link"></i>Home</a></li>
+                        <li class="nav-item"><a href="aboutus.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a class="btn btn-primary me-md-2 mb-2" href="../signup/signup.html">Signup</a></li>
+                        <li class="nav-item"><a class="btn btn-primary me-2" href="../signin/signin.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="display-4">About Us</h1>
+                <p class="lead">Our Student Web Portal is designed to provide a centralized hub of information and
+                    resources for students. Whether
+                    you're a new student just starting your academic journey or a returning student looking for specific
+                    information, this
+                    portal is here to support you throughout your educational experience.
+                    .</p>
+                <p>Here, you'll find a wide range of features and services to enhance your student life. Let's take a
+                    closer look at what
+                    our Student Web Portal has to offer:
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="../images/pic.jpg" alt="About Us" class="img-fluid">
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light py-2">
+        <div class="container text-center">
+            <p>&copy;Developed by ProDev5.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
