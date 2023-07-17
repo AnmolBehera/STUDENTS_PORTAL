@@ -16,10 +16,10 @@ ProEd :
 
 Mobile Responsive View:
 
-<img width="158" alt="Screenshot 2023-07-17 120221" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/03362f40-7ab8-470f-b75e-905ad377f7d2">
-<img width="158" alt="Screenshot 2023-07-17 120252" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/0a5fb65b-4205-4500-be8d-752d7831d945">
-<img width="158" alt="Screenshot 2023-07-17 120311" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/58f22315-825a-4a11-9569-154d8290e46f">
-<img width="158" alt="Screenshot 2023-07-17 120328" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/02a77ccc-9547-48b9-a7bd-611b8a2128c1">
+<div><img width="158" alt="Screenshot 2023-07-17 120221" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/03362f40-7ab8-470f-b75e-905ad377f7d2"></div>
+<div><img width="158" alt="Screenshot 2023-07-17 120252" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/0a5fb65b-4205-4500-be8d-752d7831d945"></div>
+<div><img width="158" alt="Screenshot 2023-07-17 120311" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/58f22315-825a-4a11-9569-154d8290e46f"></div>
+<div><img width="158" alt="Screenshot 2023-07-17 120328" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/02a77ccc-9547-48b9-a7bd-611b8a2128c1"></div>
 
 
 About Us:
