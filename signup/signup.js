@@ -1,7 +1,3 @@
-function generateId() {
-    return Math.floor(Math.random() * 10000);
-}
-const id = generateId();
 const signup = document.getElementById('signup');
 const uname = document.getElementById('name');
 const email = document.getElementById('email');
@@ -11,19 +7,21 @@ const phone = document.getElementById('contact');
 signup.addEventListener("click", () => {
     if (validate()) {
         const obj = {
-            id: id,
             name: uname.value,
             mobile: phone.value,
             email: email.value,
             password: password.value
         }
-        fetch('http://localhost:9090/student-details', {
+        fetch('http://localhost:9090/admin', {
             method: 'GET',
         }).then((res) => res.json()).then((data) => {
             if (data.find((el) => el.email === email.value)) {
-                alert('Email Already Exists Please Log In');
+                swal({
+                    icon: 'error',
+                    title: "Email Already Exists!"
+                  })
             } else {
-                fetch('http://localhost:9090/student-details', {
+                fetch('http://localhost:9090/admin', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -31,7 +29,10 @@ signup.addEventListener("click", () => {
                     body: JSON.stringify(obj),
                 }).then((res) => res.json()).then((data) => {
                     console.log(data);
-                    alert('Account Created Successfully');
+                    swal({
+                        icon: 'error',
+                        title: "Account Created Successfully!"
+                      })
                     window.location.href = "./Sign In.html";
                 });
             }
@@ -41,50 +42,76 @@ signup.addEventListener("click", () => {
 
 function validate() {
     if (uname.value == "") {
-        alert("name cannot be null")
-        return false
-    }
-    if (phone.value == "") {
-        alert("mobile no. cannot be null")
+        swal({
+            icon: 'error',
+            title: "Please your name!"
+          })
         return false
     }
     if (email.value == "") {
-        alert("email cannot be null")
+        swal({
+            icon: 'error',
+            title: "Enter your email!"
+          })
         return false
     }
     if (password.value == "") {
-        alert("password cannot be null")
+        swal({
+            icon: 'error',
+            title: "Enter your password!"
+          })
+        return false
+    }
+    if (phone.value == "") {
+        swal({
+            icon: 'error',
+            title: "Enter your mobile number!"
+          })
         return false
     }
     if (phone.value.length != 10) {
-        alert("please enter a valid mobile no.")
+        swal({
+            icon: 'error',
+            title: "Enter your mobile no.!"
+          })
         return false
     }
     if (isNaN(phone.value)) {
-        alert("please enter a valid mobile no.")
+        swal({
+            icon: 'error',
+            title: "Enter your valid mobile no.!"
+          })
         return false
     }
     if (password.value.length < 8) {
-        alert("Password length should be atleast 8 characters long")
+        swal({
+            icon: 'error',
+            title: "Password length should be atleast 8 characters long!"
+          })
         return false
     }
     if (re_password.value !== password.value){
-        alert('Confirm Password does not match with the entered value.');
+        swal({
+            icon: 'error',
+            title: "Confirm Password does not match with the password value!"
+          })
         return false
     }
-    if (checkUpperChar(password.value)) {
-        alert("Password must have atleast one upppercase letter")
-        return false
-    }
-    if (checkSpecialChar(password.value)) {
-        alert("Password must have atleast one special character")
+    if (checkUpperChar(password.value)&&checkSpecialChar(password.value)) {
+        swal({
+            icon: 'error',
+            title: "Password must have atleast one upppercase letter and one special character!"
+          })
         return false
     }
     let at = email.value.indexOf("@")
     let dot = email.value.lastIndexOf(".")
     let len = email.value.length
     if (dot === len - 1 || at === len - 1 || dot < at) {
-        alert("please enter a valid email address")
+        swal({
+            icon: 'error',
+            title: "Please enter a valid email address!"
+          })
         return false
     }
     return true

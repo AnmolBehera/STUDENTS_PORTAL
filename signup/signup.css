@@ -1,5 +1,5 @@
  body {
-            background-image: url(images/hero-bg.png);
+            background-image: url(../images/hero-bg.png);
         }
 
         .main {
@@ -8,7 +8,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 25px;
+            margin-top: 8%;
             margin-bottom: 50px;
         }
 
@@ -122,3 +122,11 @@
         .signup-form .signin-option a:hover {
             text-decoration: underline;
         }
+@media screen and (max-width: 680px) {
+    .main{
+        margin-top: 32%;
+    }
+    .signup-image{
+        display: none;
+    }
+}
