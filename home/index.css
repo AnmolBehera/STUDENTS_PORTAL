@@ -1,0 +1,117 @@
+body {
+            background-color: wh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            height: 350px;
+            margin-bottom: 30px;
+        }
+
+        .main {
+            min-height: 400px;
+            padding-top: 1.5%;
+        }
+
+        .main h1 {
+            color: #034694;
+            font-size: 48px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .main p {
+            color: #034694;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .services {
+            padding-top: 80px;
+            margin-bottom:0%;
+
+        }
+
+        .services-heading h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+
+        .services-heading p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .box:hover {
+            transform: translateY(-8px) scale(1.09);
+        }
+
+        .box img {
+            max-width: 80px;
+            margin-bottom: 20px;
+        }
+
+        .box h3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .box p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .box a {
+            display: inline-block;
+            padding: 10px 30px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 0px;
+        }
+
+        .box a:hover {
+            background-color: blue;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #fff;
+            font-weight: 600;
+        }
+        @media screen and (max-width: 307px) {
+            .image {
+                max-height: 160px;
+                max-width: 160px;
+            }
+        }
+
+        @media screen and (max-height: 1200px) {
+            .home-text {
+                margin-top: 11%;
+                padding-top: 5%;
+                float: right;
+                margin-right: auto;
+            }
+        }
