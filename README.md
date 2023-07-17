@@ -30,6 +30,11 @@ signup page ----> for the new admin includes username,email, password, confirm p
 <img width="960" alt="Screenshot 2023-07-17 114619" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/f6304c14-d581-4785-83fc-94a5f9df98bb">
 <img width="960" alt="Screenshot 2023-07-17 114633" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/7651cb99-0aef-492e-9c2e-cb070f193267">
 
+Showing of error message:
+
+<img width="960" alt="Screenshot 2023-07-17 121021" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/ab9c0cad-009a-4eb3-a6b6-d4683b7964fb">
+
+
 signin page ----> for the user who signedup the page already next time they will only login with email and password that is already being done with same email an password in the signUp, User will get the access of the portal
 
 <img width="959" alt="Screenshot 2023-07-17 114650" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/82a4e747-1085-4bc3-838f-789d4642fab7">
@@ -46,9 +51,11 @@ Admin module -----> this model has a Home page/landing page, where the home page
 
 <img width="960" alt="Screenshot 2023-07-17 114727" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/6784f6ee-e4ca-4e43-b63a-2baca4dbc902">
 
+
 registration -----> In this page the admin will register themselves by giving their details which includes name, fathername, email,etc after successful registration the the admin will be applying CRUD operations.
 
 <img width="960" alt="Screenshot 2023-07-17 114747" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/ba7d0602-fd44-4a7d-9be4-58cc54b20217"><img width="960" alt="Screenshot 2023-07-17 115756" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/81700255-214a-4f27-9a41-17bddb3c4de5">
+
 
 students' record -----> In this page the list of students is shown.We can find the students of class 11 or 12 and also searching of a particular student can be done by using his or her name.Again, we can update the student details and also we can remove the details of a student.
 
