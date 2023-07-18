@@ -9,7 +9,6 @@ body {
             color: white;
             font-weight: 600;
         }
-
         form {
             width: 600px;
             margin: 8% auto;
@@ -84,7 +83,7 @@ body {
                 font-size: 16px;
                 width: 90%;
                 margin-right: 20px;
-                margin-top: 80px;
+                margin-top: 100px;
             }
 
             h1 {
@@ -145,7 +144,7 @@ body {
             z-index: 1;
             width: 100%;
             margin-bottom: 5%;
-            background:transparent;
+            background-color: #fff;
         }
 
 @media screen and (max-width: 307px) {
@@ -224,15 +223,6 @@ body {
         header {
             font-family: "Lato", sans-serif;
             background-color: white;
-        }
-
-        .top {
-            position: fixed;
-            top: 0;
-            z-index: 1;
-            width: 100%;
-            margin-bottom: 5%;
-            background:transparent;
         }
 
 @media screen and (max-width: 307px) {

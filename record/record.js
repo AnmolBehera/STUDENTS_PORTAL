@@ -39,7 +39,22 @@ else
     {
         document.getElementById("mySidenav").style.width = "0";
     }
+
+    screen.orientation.addEventListener("change", function(){ window.location.reload()});
+
 function myfunction1(){
+  if (window.matchMedia("(max-width: 690px)").matches) {
+    mtablehead();
+    const tbody=document.getElementById("tbody");
+    fetch(`http://localhost:9090/student-details`,{method:"GET"})
+    .then((res)=>res.json())
+    .then((data)=>{
+        data.map((el)=>{          
+        const tr=mtablebody(el);
+        tbody.append(tr);
+        });
+    });
+  } else {
     tablehead();
     const tbody=document.getElementById("tbody");
     fetch(`http://localhost:9090/student-details`,{method:"GET"})
@@ -50,6 +65,7 @@ function myfunction1(){
         tbody.append(tr);
         });
     });
+  }
 }
 
 function myfunction2(){
@@ -57,7 +73,11 @@ function myfunction2(){
     table.remove();
     if(sclass.value==11||sclass.value==12)
     {
+      if (window.matchMedia("(max-width: 690px)").matches) { 
+        mtablehead();
+      }else{
         tablehead();
+      }
         const tbody=document.getElementById("tbody");
         fetch(`http://localhost:9090/student-details`,{method:"GET"})
         .then((res) => res.json())
@@ -66,8 +86,13 @@ function myfunction2(){
             console.log(details);
             details.map((el)=>
             {
+              if (window.matchMedia("(max-width: 690px)").matches) { 
+                const tr=mtablebody(el);
+                tbody.append(tr);
+              }else{
                 const tr=tablebody(el);
                 tbody.append(tr);
+              }
             })
         })
     }
@@ -86,7 +111,11 @@ search.addEventListener("click",()=>{
     console.log(comparison);
     if(comparison!=undefined)
     {
+      if (window.matchMedia("(max-width: 690px)").matches) { 
+        mtablehead();
+      }else{
         tablehead();
+      }
         const tbody=document.getElementById("tbody");
         fetch(`http://localhost:9090/student-details`,{method:"GET"})
         .then((res) => res.json())
@@ -95,8 +124,13 @@ search.addEventListener("click",()=>{
             console.log(details);
             details.map((el)=>
             {
+              if (window.matchMedia("(max-width: 690px)").matches) { 
+                const tr=mtablebody(el);
+                tbody.append(tr);
+              }else{
                 const tr=tablebody(el);
                 tbody.append(tr);
+              }
             })
         })
     }
@@ -157,6 +191,44 @@ function tablehead(){
 
 }
 
+function mtablehead(){
+  const table=document.createElement("table");
+  table.setAttribute("class","table table-striped");
+  table.setAttribute("id","table");
+
+  const thead=document.createElement("thead");
+  thead.setAttribute("class","bg-primary text-white");
+  
+  const trh=document.createElement("tr");
+  
+  const hid=document.createElement("th");
+  hid.setAttribute("scope","col");
+  hid.innerText="ID";
+
+  const hname=document.createElement("th");
+  hname.setAttribute("scope","col");
+  hname.innerText="Name";
+
+  const hclass=document.createElement("th");
+  hclass.setAttribute("scope","col");
+  hclass.innerText="Class";
+
+  const haction=document.createElement("th");
+  haction.setAttribute("scope","col");
+  haction.innerText="Action";
+
+  const tbody=document.createElement("tbody");
+  tbody.setAttribute("id","tbody");
+
+  trh.append(hid,hname,hclass,haction);
+  thead.append(trh);
+
+  table.append(thead,tbody);
+
+  container.append(table);
+
+}
+
 function tablebody(el){
 
     const tr=document.createElement("tr");
@@ -214,6 +286,58 @@ function tablebody(el){
 
     tr.append(sid,name,email,phone,uclass,action);
     return tr; 
+}
+
+function mtablebody(el){
+
+  const tr=document.createElement("tr");
+
+  const sid=document.createElement("td");
+  sid.innerText=el.id;
+
+  const name=document.createElement("td");
+  name.innerText=el.name;
+
+  const uclass=document.createElement("td");
+  uclass.innerText=el.class;
+
+  const action=document.createElement("td");
+  const updatebutton = document.createElement("button");
+  updatebutton.innerText = "Edit";
+  updatebutton.setAttribute("id","update");
+  updatebutton.setAttribute("data-bs-toggle","modal");
+  updatebutton.setAttribute("data-bs-target","#confirmationModal");
+  updatebutton.addEventListener("click",() => {
+      localStorage.setItem("stid",JSON.stringify(el.id));
+      fetch(`http://localhost:9090/student-details`, {method: "GET",})
+      .then((res)=>res.json())
+  .then((data)=>{
+          const student = data.filter((ele)=>ele.id==el.id);
+          console.log(student[0].stream);   
+          ssname.value=student[0].name;
+          fname.value=student[0].fname;
+          uemail.value=student[0].email;
+          uphone.value=student[0].phone;  
+          date.value=student[0].date;
+          document.getElementById(student[0].gender).checked=true;
+          stream.value=student[0].stream;
+          stclass.value=student[0].class;
+  })
+})
+  const deletebutton = document.createElement("button");
+    deletebutton.innerText = "Delete";
+    deletebutton.setAttribute("id","delete");
+    deletebutton.addEventListener("click", () => {
+      fetch(`http://localhost:9090/student-details/${el.id}`, {
+        method: "DELETE",
+      }).then((res) => {
+        alert("DELETED");
+      });
+    });
+  action.append(updatebutton,deletebutton);
+
+  tr.append(sid,name,uclass,action);
+  return tr; 
 }
 
 save.addEventListener("click",()=>{
