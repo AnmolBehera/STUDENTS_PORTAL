@@ -6,7 +6,7 @@
 
 The Student Portal is a web application that provides a centralized platform for students and administrators to manage various aspects of academic life. It offers separate modules for administrators and students, each with their own set of features and functionalities.
 
-## COMPONENTS/user flow
+## COMPONENTS/userflow
 
 Home module ----> this module contains the home page,ab
 out us page etc.From home page we can traverse to signup,signin pages.
