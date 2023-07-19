@@ -1,6 +1,6 @@
 # STUDENTS_PORTAL
 
-<img width="960" alt="Screenshot 2023-07-17 114439" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/09f3183b-40bf-415d-b0f6-05f570996b5a">
+<img width="960" alt="Screenshot 2023-07-17 114439" src="[https://github.com/AnmolBehera/STUDENTS_PORTAL/main/images/118097628/09f3183b-40bf-415d-b0f6-05f570996b5a](https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/logo.png)">
 
 ## INTRODUCTION
 
