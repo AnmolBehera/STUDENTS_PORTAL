@@ -55,9 +55,14 @@ registration -----> In this page the admin will register themselves by giving th
 
 students' record -----> In this page the list of students is shown.We can find the students of class 11 or 12 and also searching of a particular student can be done by using his or her name.Again, we can update the student details and also we can remove the details of a student.
 
+PC view:
 <img width="960" alt="Screenshot 2023-07-17 114804" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/0af37f79-a1dd-42b8-b79d-c058f7aa6d7b">
 <img width="960" alt="Screenshot 2023-07-17 114838" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/9dcac7b7-36ae-48d2-81aa-5ae03a4c8445">
 <img width="960" alt="Screenshot 2023-07-17 115826" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/8b550b60-d330-45d7-8daf-98bb4412afdb">
+
+Mobile view:
+<img width="248" alt="Screenshot 2023-07-19 122349" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/81bcf95a-11c3-4df0-bdd4-783eb0ff143c">
+
 
 ## Installation
 
