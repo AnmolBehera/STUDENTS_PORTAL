@@ -1,6 +1,7 @@
 # STUDENTS_PORTAL
-
+<p>
 <img width="960" alt="Screenshot 2023-07-17 114439" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/09f3183b-40bf-415d-b0f6-05f570996b5a">
+</p>
 
 ## INTRODUCTION
 
@@ -12,10 +13,11 @@ Home module ----> this module contains the home page,ab
 out us page etc.From home page we can traverse to signup,signin pages.
 
 ProEd :
+<p>
 <img width="960" alt="Screenshot 2023-07-17 122225" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/7053abf6-3876-4e4a-b76f-dbfbd48e76f5">
 <img width="960" alt="Screenshot 2023-07-17 114504" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/ef635359-361b-4fc2-b7fe-b692ec2f112c">
 <img width="960" alt="Screenshot 2023-07-17 114520" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/83adbc54-ccd2-4d4e-a226-3051d57575a7">
-
+</p>
 Mobile Responsive View:
 
 <div><img width="158" alt="Screenshot 2023-07-17 120221" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/03362f40-7ab8-470f-b75e-905ad377f7d2"></div>
