@@ -61,7 +61,8 @@ PC view:
 <img width="960" alt="Screenshot 2023-07-17 115826" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/8b550b60-d330-45d7-8daf-98bb4412afdb">
 
 Mobile view:
-<img width="248" alt="Screenshot 2023-07-19 122349" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/81bcf95a-11c3-4df0-bdd4-783eb0ff143c">
+
+<div><img width="248" alt="Screenshot 2023-07-19 122349" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/assets/118097628/81bcf95a-11c3-4df0-bdd4-783eb0ff143c"></div>
 
 
 ## Installation
