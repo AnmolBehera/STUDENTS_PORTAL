@@ -13,9 +13,7 @@ out us page etc.From home page we can traverse to signup,signin pages.
 
 ProEd :
 
-<img width="960" alt="Screenshot 2023-07-17 122225" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20122225.png">
-<img width="960" alt="Screenshot 2023-07-17 114504" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114504.png">
-<img width="960" alt="Screenshot 2023-07-17 114520" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114520.png">
+<img width="960" alt="Screenshot 2023-07-17 122225" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20122225.png"><img width="960" alt="Screenshot 2023-07-17 114504" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114504.png"><img width="960" alt="Screenshot 2023-07-17 114520" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114520.png">
 
 Mobile Responsive View:
 <div><img width="158" alt="Screenshot 2023-07-17 120221" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20120221.png"></div>
@@ -28,8 +26,7 @@ About Us:
 
 signup page ----> for the new admin includes username,email, password, confirm password and contact number of the user after successful signUp, the User will get the access of the portal
 
-<img width="960" alt="Screenshot 2023-07-17 114619" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114619.png">
-<img width="960" alt="Screenshot 2023-07-17 114633" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114633.png">
+<img width="960" alt="Screenshot 2023-07-17 114619" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114619.png"><img width="960" alt="Screenshot 2023-07-17 114633" src="https://github.com/AnmolBehera/STUDENTS_PORTAL/blob/main/images/Screenshot%202023-07-17%20114633.png">
 
 Showing of error message:
 
